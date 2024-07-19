@@ -28,7 +28,7 @@ spec:
     spec:
       containers:
       - name: flask-test-app
-        image: flask-kubernetes
+        image: pteke20/flask-kubernetes:1.0
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 5000
